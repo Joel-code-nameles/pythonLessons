@@ -107,7 +107,7 @@ class app:
         self.pb.place(rely = .9,relx = 0.03)
         self.pb.set(0)
 
-        self.tbutton = customtkinter.CTkButton(self.thirdframe,width= 2,command=self.thredingprossces)
+        self.tbutton = customtkinter.CTkButton(self.thirdframe,width= 0.1,command=self.thredingprossces,text="")
         self.tbutton.place(rely = .3,relx = 0.9)
         self.thredingprossces()
 
