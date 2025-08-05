@@ -9,13 +9,13 @@ window.title("Agape Desk")
 border1 = customtkinter.CTkFrame(window,width= 1300,height=49,fg_color= "#A20025",corner_radius= 0)
 border1.place(relx = 0,rely = 0)
 
-imageLabel1 = customtkinter.CTkLabel(window, text="")
-imageLabel1.place(relx = 0,rely = 0.07)
+self.imageLabel1 = customtkinter.CTkLabel(window, text="")
+self.imageLabel1.place(relx = 0,rely = 0.07)
 
-img_url1 = r"Images/project.jpg"
-image_copy1 = Image.open(img_url1)
-fix_image1 = customtkinter.CTkImage(image_copy1, size=(1300, 640))
-imageLabel1.configure(image=fix_image1)
+self.img_url1 = r"Images/project.jpg"
+self.image_copy1 = Image.open(img_url1)
+self.fix_image1 = customtkinter.CTkImage(self.image_copy1, size=(1300, 640))
+self.imageLabel1.configure(image=fix_image1)
 
 
 

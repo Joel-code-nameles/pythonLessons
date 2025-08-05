@@ -1,0 +1,7 @@
+Continent: Asia, Population: 4,744,000,000
+Continent: Africa, Population: 1,489,000,000
+Continent: Europe, Population: 744,000,000
+Continent: North America, Population: 604,000,000
+Continent: South America, Population: 439,000,000
+Continent: Australia/Oceania, Population: 46,000,000
+Continent: Antarctica, Population: 1,000 (seasonal scientists only)
